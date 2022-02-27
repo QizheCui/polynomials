@@ -61,5 +61,6 @@ class Polynomial: #don't need (object) as this is python2 requirement
 
     def __radd__(self, other):
         return self + other  #it is going to call the __add__ method above
-                            
+        #if 5.__add__(p)  fail python will then try
+        # p.__radd__(5) in this case is p+5               
 

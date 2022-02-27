@@ -1,1 +1,5 @@
+How to install ipython?
 python3 -m pip install ipython
+
+isinstance(x, class)
+it check whether x is in the class
